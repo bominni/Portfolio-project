@@ -1,7 +1,12 @@
 import "./App.css";
+import About from "./components/About";
 
 function App() {
-  return <div className="App">Portfolio 프로젝트 입니다.</div>;
+  return (
+    <div className="App">
+      <About />
+    </div>
+  );
 }
 
 export default App;
